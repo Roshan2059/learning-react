@@ -1,8 +1,12 @@
 import './mainbg.css';
+import AnItem from './AnItem';
 
 function Mainbg() {
     return (
-        <div className='main'></div>
+        <div className='main'>
+            <AnItem /> 
+            <AnItem /> 
+        </div>
     );
 }
 

@@ -1,12 +1,13 @@
 .footer{
     background-color: aquamarine;
-    height: 4vh;
-    width: 100vw;
+    height: 7vh;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
 }
 
 .text{
-    color: gold;
+    color: black;
     font-size: 1em;
+    text-align: center;
 }

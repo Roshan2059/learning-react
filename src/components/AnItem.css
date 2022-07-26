@@ -1,5 +1,13 @@
-.item{
+.an-item{
     background-color: aqua;
-    height: 1em;
+    height: auto;
     width: 70vw;
+    display: inline-block;
+}
+
+.ind-item{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
 }

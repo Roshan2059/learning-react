@@ -1,22 +1,19 @@
 import './AnItem.css';
 
 function AnItem() {
-    let date = new date();
+    let date = new Date();
     let title = "Foods";
     let price = 200;
     return (
         <div className="an-item">
-            <div className="date">
-                <div>Date:</div>
-                <div>{date.getDate()}</div>
+            <div className="ind-item">
+                Date: {date.getFullYear()}-{date.getMonth()+1}-{date.getDate()}
             </div>
-            <div className>
-                <div>Title:</div>
-                <div>{title}</div>
+            <div className="ind-item">
+                Title: {title}
             </div>
-            <div>
-                <div>Expense:</div>
-                <div>${price}</div>
+            <div className="ind-item">
+                Expense: ${price}
             </div>
         </div>
     );
