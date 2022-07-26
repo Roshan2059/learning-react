@@ -1,0 +1,11 @@
+.footer{
+    background-color: aquamarine;
+    height: 4vh;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text{
+    color: gold;
+}

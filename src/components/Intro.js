@@ -1,6 +1,9 @@
-function intro() {
-    return(
-        <h2>This is the first and very simple project I am going to do with react</h2>
+import './intro.css';
+
+function Intro() {
+    return (
+        <h2 className='bg-am'>This is the first and very simple project I am going to do with react</h2>
     );
 }
-export default intro;
+
+export default Intro;

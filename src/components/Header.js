@@ -1,7 +1,9 @@
-function header() {
+import './header.css'
+
+function Header() {
     return (
-        <h2>Simple Expense Tracker</h2>
+        <h2 className='center'>Simple Expense Tracker</h2>
     );
 }
 
-export default header;
+export default Header;
